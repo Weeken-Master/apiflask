@@ -12,17 +12,6 @@ from flask_jwt_extended import JWTManager
 from sqlalchemy.sql.functions import char_length, current_user
 from flask_cors import CORS
 
-from .actions.chart1_action import Chart1Action
-from .models.chart1_model import Chart1
-from .models.user_model import User
-from .actions.user_action import UserAction
-from .Model_crawl import TongQuanThiTruong
-from .Model_crawl import DanhMuc
-# from .models import chart1_model
-# from .models import user_model
-
-from .models.market_analytics_model import market_analytics
-from .actions.market_analytics_action import market_analytics_action
 
 
 import pymysql
